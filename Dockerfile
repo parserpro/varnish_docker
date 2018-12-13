@@ -1,5 +1,5 @@
-FROM debian
-MAINTAINER Jonathan Baldie "jon@jonbaldie.com"
+FROM alpine:3.8
+MAINTAINER Alexey Myshkin "parserpro@gmail.com"
 
 ADD install.sh install.sh
 RUN chmod +x install.sh && sh ./install.sh && rm install.sh

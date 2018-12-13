@@ -1,0 +1,1 @@
+docker build -t demiurg/varnish:6.0.0-r1 .
